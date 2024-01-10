@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+D:/Cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Cmake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Cmake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+D:/Cmake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+D:/Cmake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+D:/Cmake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+D:/Cmake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Cmake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+D:/Cmake/share/cmake-3.25/Modules/Platform/Windows.cmake
+D:/Cmake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+D:/GAMES202/homework4/lut-gen/CMakeLists.txt
+D:/GAMES202/homework4/lut-gen/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+D:/GAMES202/homework4/lut-gen/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+D:/GAMES202/homework4/lut-gen/build/CMakeFiles/3.25.1/CMakeRCCompiler.cmake
+D:/GAMES202/homework4/lut-gen/build/CMakeFiles/3.25.1/CMakeSystem.cmake
