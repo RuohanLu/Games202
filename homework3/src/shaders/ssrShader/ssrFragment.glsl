@@ -168,17 +168,16 @@ void main() {
   float s = InitRand(gl_FragCoord.xy);
 
   vec3 L = vec3(0.0);
-  // L = GetGBufferDiffuse(GetScreenCoordinate(vPosWorld.xyz));
 
   vec3 worldPos = vPosWorld.xyz;
   vec2 screenUV = GetScreenCoordinate(vPosWorld.xyz);
   vec3 wi = normalize(uLightDir);
   vec3 wo = normalize(uCameraPos - worldPos);
 
-  // 直接光照
+  // Direct illumination
   L = EvalDiffuse(wi, wo, screenUV) * EvalDirectionalLight(screenUV);
 
-  // Screen Space Ray Tracing 的反射测试
+  // Screen Space Ray Tracing reflection test
   // L = (GetGBufferDiffuse(screenUV) + EvalReflect(wi, wo, screenUV))/2.;
 
   vec3 L_ind = vec3(0.0);
