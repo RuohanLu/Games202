@@ -192,9 +192,7 @@ vec3 blinnPhong() {
 }
 
 void main(void) {
-  //vPositionFromLight为光源空间下投影的裁剪坐标，除以w结果为NDC坐标
   vec3 shadowCoord = vPositionFromLight.xyz / vPositionFromLight.w;
-  //把[-1,1]的NDC坐标转换为[0,1]的坐标
   shadowCoord.xyz = (shadowCoord.xyz + 1.0) / 2.0;
   float visibility;
   //visibility = useShadowMap(uShadowMap, vec4(shadowCoord, 1.0));
@@ -204,5 +202,4 @@ void main(void) {
   vec3 phongColor = blinnPhong();
 
   gl_FragColor = vec4(phongColor * visibility, 1.0);
-  //gl_FragColor = vec4(phongColor, 1.0);
 }
